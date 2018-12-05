@@ -1,0 +1,220 @@
+{
+  "id": "167662c28afaae3d",
+  "threadId": "167662c28afaae3d",
+  "labelIds": [
+    "UNREAD",
+    "IMPORTANT",
+    "CATEGORY_PERSONAL",
+    "INBOX"
+  ],
+  "snippet": "Segue em anexo o relatório das atividades",
+  "historyId": "86372",
+  "internalDate": "1543607417000",
+  "payload": {
+    "partId": "",
+    "mimeType": "multipart/mixed",
+    "filename": "",
+    "headers": [
+      {
+        "name": "Delivered-To",
+        "value": "controles@vamilly.com.br"
+      },
+      {
+        "name": "Received",
+        "value": "by 2002:a19:578c:0:0:0:0:0 with SMTP id l134csp3955384lfb;        Fri, 30 Nov 2018 11:50:30 -0800 (PST)"
+      },
+      {
+        "name": "X-Received",
+        "value": "by 2002:ab0:1e88:: with SMTP id o8mr3174221uak.69.1543607429647;        Fri, 30 Nov 2018 11:50:29 -0800 (PST)"
+      },
+      {
+        "name": "ARC-Seal",
+        "value": "i=1; a=rsa-sha256; t=1543607429; cv=none;        d=google.com; s=arc-20160816;        b=bDCPeP5VTM1jOUYHga7syGgOJCvc6ACz88galQg651oqz2EIiuABDvNloxiI+cYRVq         PZIhsE4SIx7Ex8YDbxlWQfY/pq6wL2oWenACEi1aQ2/EmYMd5yQ1k1qBeqW66v+zLKgB         UVvWm7lg1zwm5LZY9wTXcKvtPzSKO8oqUsKtjwanOaD/QQP8GM1gZot19YW11WActB6D         OdEl6qpTKtK6hgo+7Xk042ILLa4icI5W/3F6cz54iBHjxkGa9vkkx+b3XTdIilkwNSIZ         Yhy7X2I1vZLMRjMGSt/iXQiy1IRzRhgpRW7rGIQrS3Vj9Q+kYlqDpdgSuO+onX+Lp6nx         vlHA=="
+      },
+      {
+        "name": "ARC-Message-Signature",
+        "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=to:subject:message-id:date:from:mime-version:dkim-signature;        bh=kUZqYyn/yxp1u37QpGzpxxvu/NcNX6Urggf0+uysiv0=;        b=Rf7Ec5Z2CJ5b9BU62ZFB9b4foRnd2X8DxJzOrW8Hs5FtWNAdryMSfqzYtZbrc9842x         giCXZS+6St+5DKArbabJgo5FGNdcBile22yBaYXHX5tBJqXzJ/bVcpf35FJv8QSaRRB5         +l6C5qIX29tu2JnIWeh56Ww//xWbQenQr++wTe3+F5yrKRYaebMZF8fYMGcrn8oLfx6w         woO7OXHdxjel5KYsNu8djx+gBJEBxe4IIUJE62jVEnxpijWdVoSYvmv/P2QBVKSlZcT2         CmQxoLY39z8lp0q21kHY+a/fr7Lpk6xjqXi80jTMrTPzue6BDG26YNMWLuLR2lXoEgTB         jywQ=="
+      },
+      {
+        "name": "ARC-Authentication-Results",
+        "value": "i=1; mx.google.com;       dkim=pass header.i=@vamilly-com-br.20150623.gappssmtp.com header.s=20150623 header.b=cdaBI7gh;       spf=pass (google.com: domain of andre.silva@vamilly.com.br designates 209.85.220.41 as permitted sender) smtp.mailfrom=andre.silva@vamilly.com.br"
+      },
+      {
+        "name": "Return-Path",
+        "value": "<andre.silva@vamilly.com.br>"
+      },
+      {
+        "name": "Received",
+        "value": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])        by mx.google.com with SMTPS id b38sor3420247uae.44.2018.11.30.11.50.29        for <controles@vamilly.com.br>        (Google Transport Security);        Fri, 30 Nov 2018 11:50:29 -0800 (PST)"
+      },
+      {
+        "name": "Received-SPF",
+        "value": "pass (google.com: domain of andre.silva@vamilly.com.br designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
+      },
+      {
+        "name": "Authentication-Results",
+        "value": "mx.google.com;       dkim=pass header.i=@vamilly-com-br.20150623.gappssmtp.com header.s=20150623 header.b=cdaBI7gh;       spf=pass (google.com: domain of andre.silva@vamilly.com.br designates 209.85.220.41 as permitted sender) smtp.mailfrom=andre.silva@vamilly.com.br"
+      },
+      {
+        "name": "DKIM-Signature",
+        "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=vamilly-com-br.20150623.gappssmtp.com; s=20150623;        h=mime-version:from:date:message-id:subject:to;        bh=kUZqYyn/yxp1u37QpGzpxxvu/NcNX6Urggf0+uysiv0=;        b=cdaBI7ghJpqg1UtI4wg5wdEdj7L1L5L5lvSFEcaS3xQdEGy59JUPAhO5QL0lWg9K7U         MiTOVkvqtSlgV5Z8VLRrR2icaa9hJkSS0X2bb8FgXSqPyBXyBsHOhlN7Vb5sYeohdh6E         NsXF8gykSO+MSKGl8Ohs5aQE98uFDiOHaCI84vxyfjPzZuP6eEj608zsMnIeteWX81NM         +q7ta9dfqqYruKrAYXHbiagVoer8FOLgixNjIuLuqHYl2VAKqoGJn5T4pLgt6+SFivAy         XVp+2Mrzp77is+7Ln5MuUjZKtIuVDX6XPoj5g18aabs9BbOPqeiYZjuKgH9UAWTIZl9A         kLMg=="
+      },
+      {
+        "name": "X-Google-DKIM-Signature",
+        "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20161025;        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;        bh=kUZqYyn/yxp1u37QpGzpxxvu/NcNX6Urggf0+uysiv0=;        b=Dv3pTlKwOuNl3P8XGgrI9CsD9hekDpwvQBlDMykHQQaW+fJrcCBtdQNFogN8gtL3pg         Q/M7dIu97nciD0Z6wlf71p8gOzxzfnwlj980ZS8rRD6dkewMWzAnfyARHv6E41gp9Ge9         ZHdBOD0oYIAKQfZffJKmPTvgQCVPfU4sklj8k+l7Zin14GuW7gA7pFk+Zz0ubyHL+6xo         +AFdwOn9d8mjpfqkp6Be29yfp7INjwyw2y+AkGH1Xx7vtOfOHkl8oSy32W6d1ZwPRyg0         SjFeD6xcscq23+jtLyY/Csd6BrnmcV/b/HwnnTHNU2s132ngEJKBYwKRQZa4y10IRtFO         UZ6Q=="
+      },
+      {
+        "name": "X-Gm-Message-State",
+        "value": "AA+aEWbBbvA/44o/LaMOnahC71ihYg+mrySWYHUjIL1CgxLNl/U2TOVv WVAji18x3BpADc8tOkuZpeZEGxhI8uH5OwyLuke2w2gbjts="
+      },
+      {
+        "name": "X-Google-Smtp-Source",
+        "value": "AFSGD/XJnAqrINtrC6eSgdB3pL5XttVXBk1IsIa7+mkCaHzWqfBjRJoWyjyLpAyaQRInUIXJOxDAD44GbyQBQeFY2DY="
+      },
+      {
+        "name": "X-Received",
+        "value": "by 2002:ab0:5942:: with SMTP id o2mr3134328uad.53.1543607428426; Fri, 30 Nov 2018 11:50:28 -0800 (PST)"
+      },
+      {
+        "name": "MIME-Version",
+        "value": "1.0"
+      },
+      {
+        "name": "From",
+        "value": ""
+        André
+        Silva
+        " <andre.silva@vamilly.com.br>"
+      },
+      {
+        "name": "Date",
+        "value": "Fri, 30 Nov 2018 17:50:17 -0200"
+      },
+      {
+        "name": "Message-ID",
+        "value": "<CAHHq1fVf3CyfZRL6D2XoHLU-hR+c-Q3aJSAoCtwasyNpbRDX1g@mail.gmail.com>"
+      },
+      {
+        "name": "Subject",
+        "value": "Relatório do mês"
+      },
+      {
+        "name": "To",
+        "value": "Controles Vamilly <controles@vamilly.com.br>, Edinei Sanchez Milek <edinei@vamilly.com.br>, Marcos Priotto <priotto@vamilly.com.br>, Anderson Scheffer Spelfer <anderson.scheffer@vamilly.com.br>"
+      },
+      {
+        "name": "Content-Type",
+        "value": "multipart/mixed; boundary="
+        00000000000072a99d057be71cf6
+        ""
+      }
+    ],
+    "body": {
+      "size": 0
+    },
+    "parts": [
+      {
+        "partId": "0",
+        "mimeType": "multipart/alternative",
+        "filename": "",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "multipart/alternative; boundary="
+            00000000000072a998057be71cf4
+            ""
+          }
+        ],
+        "body": {
+          "size": 0
+        },
+        "parts": [
+          {
+            "partId": "0.0",
+            "mimeType": "text/plain",
+            "filename": "",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "text/plain; charset="
+                UTF-8
+                ""
+              },
+              {
+                "name": "Content-Transfer-Encoding",
+                "value": "quoted-printable"
+              }
+            ],
+            "body": {
+              "size": 44,
+              "data": "U2VndWUgZW0gYW5leG8gbyByZWxhdMOzcmlvIGRhcyBhdGl2aWRhZGVzDQo="
+            }
+          },
+          {
+            "partId": "0.1",
+            "mimeType": "text/html",
+            "filename": "",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "text/html; charset="
+                UTF-8
+                ""
+              },
+              {
+                "name": "Content-Transfer-Encoding",
+                "value": "quoted-printable"
+              }
+            ],
+            "body": {
+              "size": 65,
+              "data": "PGRpdiBkaXI9Imx0ciI-U2VndWUgZW0gYW5leG8gbyByZWxhdMOzcmlvIGRhcyBhdGl2aWRhZGVzPC9kaXY-DQo="
+            }
+          }
+        ]
+      },
+      {
+        "partId": "1",
+        "mimeType": "application/octet-stream",
+        "filename": "Relatório André -- Novembro_2018_PRINCIPAL.xlsx",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/octet-stream; name="
+            Relatório
+            André
+            --
+            Novembro_2018_PRINCIPAL.xlsx
+            ""
+          },
+          {
+            "name": "Content-Disposition",
+            "value": "attachment; filename="
+            Relatório
+            André
+            --
+            Novembro_2018_PRINCIPAL.xlsx
+            ""
+          },
+          {
+            "name": "Content-Transfer-Encoding",
+            "value": "base64"
+          },
+          {
+            "name": "Content-ID",
+            "value": "<f_jp4fzelu0>"
+          },
+          {
+            "name": "X-Attachment-Id",
+            "value": "f_jp4fzelu0"
+          }
+        ],
+        "body": {
+          "attachmentId": "ANGjdJ_zVJfeTK_eQpOdjaoHebuzjxOBRaOQ1Y9iwcmN0T5wXehtZxVWfR8i6AoVUMTCunbJYfHHZmiu_7dRq4_BC3_TOks8MslaHSQwu4ueRgq_a8eGFlrglzoiXLu7HKFl4wggM82iFwdIpR211JDpQIZeU_APNPcHZL8fg6uCsOQDEVzO3m4R5rZGXT4EMabCIlbQoQROVLqWfP-o_ibwYo3uNmLyAPi3CfwJf7xjVq457aE9zufqI-9-8b67q3ADDJVB8rlGp1Xv2VCwLzn-HjFThJVhdyhoF6iQWt8C75iF8tpSoe0DwDBDQDb7aFf4868WTsqXGETS9domMyj4h3DbWP5rw03HFyd5hddTI9S2LxFvZ5ry5TvPstdLhj5C01NiznMBxwdPZug0",
+          "size": 62108
+        }
+      }
+    ]
+  },
+  "sizeEstimate": 90596
+}
